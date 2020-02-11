@@ -2,7 +2,6 @@ package com.shil.sample.project;
 
 public class ThreadExample implements Runnable {
 
-	@Override
 	public void run() {
 		for(int i=0;i<10;i++) {
 			System.out.println(i + Thread.currentThread().getName());

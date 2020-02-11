@@ -61,11 +61,12 @@ public class Gcd {
 	}
 
 	public static void main(String[] args) {
-		int num1=50;
-		int num2=75;		
+		int num1=14;
+		int num2=18;		
 		Gcd gcd=new Gcd();
 		int result=gcd.findGcd(num1,num2);
 		System.out.println(result);
+		
 		gcd.gcdEuclidean(num1,num2);
 		
 		int output=gcdRecursion(num1,num2);

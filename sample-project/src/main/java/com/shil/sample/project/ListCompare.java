@@ -5,7 +5,7 @@ public class ListCompare {
 	
 	public static void main(String[] args) {
 		
-		List<String> list = new ArrayList<>();
+		List<String> list = new ArrayList();
 		list.add("ramya");
 		list.add("shilpa");
 		list.add("praveen");
@@ -27,7 +27,7 @@ public class ListCompare {
 		stu3.setName("praveen");
 		stu3.setAge(30);
 		
-		List<Student> studentList =new ArrayList<>();
+		List<Student> studentList =new ArrayList();
 		studentList.add(stu1);
 		studentList.add(stu2);
 		studentList.add(stu3);

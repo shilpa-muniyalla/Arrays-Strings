@@ -8,7 +8,7 @@ import java.util.Set;
 public class HashMapImpl {
 
 	public static void main(String[] args) {
-		Map<String,String> map = new HashMap<>();
+		Map<String,String> map = new HashMap();
 		map.put("1", "ramya");
 		map.put("2","mithun");
 		map.put("3","shilpa");
@@ -42,7 +42,7 @@ public class HashMapImpl {
 	emp3.setName("shilpa");
 	emp3.setAge(30);
 	
-	Map<Integer,Employee> m=new HashMap<>();
+	Map<Integer,Employee> m=new HashMap();
 	m.put(1,emp1);
 	m.put(2, emp2);
 	m.put(3, emp3);

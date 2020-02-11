@@ -29,8 +29,8 @@ public class BinarySearch {
 
 	public static void main(String[] args) {
 		BinarySearch binarySearch = new BinarySearch();
-		int[] array = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
-		binarySearch.checkBinarySearch(array, 0, array.length - 1, 25);
+		int[] array = { 10, 20, 30, 40};
+		binarySearch.checkBinarySearch(array, 0, array.length-1, 40);
 
 	}
 

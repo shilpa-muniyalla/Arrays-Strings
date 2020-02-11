@@ -3,7 +3,7 @@ package com.shil.sample.project;
 import java.util.HashMap;
 import java.util.Map;
 
-/*public class NumberOfWords {
+public class NumberOfWords {
 	
 	public static void checkNumberOfWords(String x) {
 		
@@ -17,9 +17,9 @@ import java.util.Map;
 
 	}
 
-}*/
+}
 
-public class NumberOfWords {
+/*public class NumberOfWords {
 	
 	public static void main(String[] args) {
 		
@@ -32,4 +32,4 @@ public class NumberOfWords {
 	System.out.println(map.size());
 		
 	}
-}
+}*/

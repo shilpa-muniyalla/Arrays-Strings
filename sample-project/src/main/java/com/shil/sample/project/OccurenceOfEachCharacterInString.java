@@ -1,6 +1,7 @@
 package com.shil.sample.project;
 
 import java.util.HashMap;
+import java.util.Map;
 
 
 public class OccurenceOfEachCharacterInString {
@@ -10,7 +11,7 @@ public class OccurenceOfEachCharacterInString {
 		s.replaceAll("\\s+", "");
 		char[] array =s.toCharArray();
 		
-		HashMap<Character,Integer> hashmap=new HashMap<>();
+		Map<Character,Integer> hashmap=new HashMap();
 		
 		for(char c:array) {
 		if(hashmap.containsKey(c)) {

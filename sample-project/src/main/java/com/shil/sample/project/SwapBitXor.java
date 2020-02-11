@@ -2,7 +2,8 @@ package com.shil.sample.project;
 
 import java.util.*;
 
-/*public class SwapBitXor {
+
+public class SwapBitXor {
 
 	public static void main(String[] args) {
 		
@@ -24,9 +25,9 @@ import java.util.*;
 	}
 
 
-}*/
+}
 
-public class SwapBitXor {
+/*public class SwapBitXor {
 public static void main(String[] args) {
 	
 	int num1,num2,num3;
@@ -48,4 +49,4 @@ public static void main(String[] args) {
 }
 
 
-}
+}*/

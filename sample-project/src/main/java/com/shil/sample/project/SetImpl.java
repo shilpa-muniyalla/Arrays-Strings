@@ -8,7 +8,7 @@ public class SetImpl {
 	
 	public static void main(String[] args) {
 		
-		Set<String> set=new HashSet<>();
+		Set<String> set=new HashSet();
 		set.add("ramya");
 		set.add("shilpa");
 		set.add("praveen");

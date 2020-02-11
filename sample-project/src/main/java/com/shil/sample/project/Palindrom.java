@@ -1,3 +1,5 @@
+//A palindrome number/word is a number/word that is same after reverse
+
 package com.shil.sample.project;
 
 public class Palindrom {

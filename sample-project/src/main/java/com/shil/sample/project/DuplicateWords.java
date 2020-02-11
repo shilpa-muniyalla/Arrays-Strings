@@ -9,7 +9,7 @@ public class DuplicateWords {
 	public static void checkDuplicateWords(String s) {
 		String[] words=s.split("\\s");
 		
-		Map<String,Integer> wordCount=new HashMap<>();
+		Map<String,Integer> wordCount=new HashMap();
 		for(String word:words) {
 			if(wordCount.containsKey(word)) {
 				wordCount.put(word.toLowerCase(), wordCount.get(word)+1);

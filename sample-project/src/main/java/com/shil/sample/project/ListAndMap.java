@@ -17,7 +17,7 @@ public class ListAndMap {
 		stu3.setName("praveen");
 		stu3.setAge(30);
 		
-		List<Student> list=new ArrayList<>();
+		List<Student> list=new ArrayList();
 		list.add(stu1);
 		list.add(stu2);
 		list.add(stu3);

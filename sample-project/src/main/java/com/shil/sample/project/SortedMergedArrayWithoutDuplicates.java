@@ -24,7 +24,7 @@ public class SortedMergedArrayWithoutDuplicates {
 			k++;
 		}
 		
-		Set<Integer> set=new HashSet<>();
+		Set<Integer> set=new HashSet();
 		
 		for(int m=0;m<mergedArray.length;m++) {
 			set.add(mergedArray[m]);

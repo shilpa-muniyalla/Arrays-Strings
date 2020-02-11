@@ -9,6 +9,7 @@ public class EqualityOfTwoArrays {
 			for(int i=0;i<arrayOne.length;i++) {
 				if(arrayOne[i]!=arrayTwo[i]) {
 					 value=false;
+					 break;
 				}
 				
 			}
@@ -28,7 +29,7 @@ public class EqualityOfTwoArrays {
 
 	public static void main(String[] args) {
 		int[] arrayOne= {2,3,4,5};
-		int[] arrayTwo= {2,3,5,5,8};
+		int[] arrayTwo= {2,3,4,5};
 		findEqualityOfTwoArrays(arrayOne,arrayTwo);
 		
 	}
